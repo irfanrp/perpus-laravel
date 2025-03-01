@@ -10,28 +10,16 @@ Project ini merupakan aplikasi perpustakaan yang berjalan menggunakan PHP 7.2 da
 ## 🏗️ Task
 Buatlah konfigurasi Docker yang memenuhi kriteria berikut:
 
-### 1️⃣ Gunakan PHP 7.2
-Aplikasi harus berjalan menggunakan PHP 7.2 dengan Apache sebagai web server.
-
-### 2️⃣ Konfigurasi Composer
-- Jalankan perintah `composer update` di dalam direktori `perpus`.
-- Pastikan Composer tersedia dalam container.
-
-### 3️⃣ Konfigurasi Environment
-- Salin file `.env.example` menjadi `.env`.
-- Jalankan perintah `php artisan key:generate` untuk membuat APP_KEY dalam `.env`.
-
-### 4️⃣ Konfigurasi Database
-- Pastikan terdapat database dengan nama `perpusku_gc`.
-- Sesuaikan konfigurasi database di dalam `.env` agar aplikasi dapat terhubung ke database.
-
-### 5️⃣ Migrasi dan Seed Database
-- Jalankan perintah `php artisan migrate`.
-- Jalankan perintah `php artisan db:seed`.
-
-### 6️⃣ Automatisasi
-- Pastikan running ketika menjalan docker-compose up 
-- (optional) Gunakan Bash script yang akan dieksekusi ketika container berjalan untuk mengotomatiskan seluruh proses setup.
+## Clue
+Use PHP 7.2
+Run Command composer update (in directory perpus)
+Copy .env.example cp .env.example .env
+Run Command php artisan key:generate to generate APP_KEY in .env
+Make sure you have database perpusku_gc
+Setting database configuration in .env
+Run Command php artisan migrate
+Also Run Command php artisan db:seed
+Make sure no manual steps are executed. to overcome that you can create a bash script which will be run when the container runs.
 
 ## 📜 Submission
 Kumpulkan file `Dockerfile`, `docker-compose.yml`, dan (optional) Bash script yang digunakan untuk menjalankan otomatisasi setup.
