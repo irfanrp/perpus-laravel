@@ -30,7 +30,7 @@ Aplikasi harus berjalan menggunakan PHP 7.2 dengan Apache sebagai web server.
 - Jalankan perintah `php artisan db:seed`.
 
 ### 6️⃣ Automatisasi
-- Pastikan semua langkah di atas berjalan secara otomatis tanpa langkah manual.
+- Pastikan running ketika menjalan docker-compose up 
 - (optional) Gunakan Bash script yang akan dieksekusi ketika container berjalan untuk mengotomatiskan seluruh proses setup.
 
 ## 📜 Submission
