@@ -31,8 +31,17 @@ Aplikasi harus berjalan menggunakan PHP 7.2 dengan Apache sebagai web server.
 
 ### 6️⃣ Automatisasi
 - Pastikan semua langkah di atas berjalan secara otomatis tanpa langkah manual.
-- Gunakan Bash script yang akan dieksekusi ketika container berjalan untuk mengotomatiskan seluruh proses setup.
+- (optional) Gunakan Bash script yang akan dieksekusi ketika container berjalan untuk mengotomatiskan seluruh proses setup.
 
 ## 📜 Submission
-Kumpulkan file `Dockerfile`, `docker-compose.yml`, dan Bash script yang digunakan untuk menjalankan otomatisasi setup.
+Kumpulkan file `Dockerfile`, `docker-compose.yml`, dan (optional) Bash script yang digunakan untuk menjalankan otomatisasi setup.
+
+## Login testing
+**Login admin**
+- username : admin123
+- password : admin123
+
+**Login user**
+- username : user123
+- password : user123
 
